@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To List app</title>
+    <script src="To_do_list_app.js" type="module"></script>
     <link rel="stylesheet" href="To_do_list_app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
@@ -33,19 +35,27 @@
     </section>
 <section id="section-9">
     <ul>
-
-    <img src="Untitled design (14).png" width="140" height="140">
-    <img src="HTML5_logo_and_wordmark.svg.png"alt="Girl in a jacket" width="140" height="140">
-    <img src="JAVASCRIPT (5).png"alt="Girl in a jacket" width="150" height="150">
+    <img src="images/untitled-design-14.png" width="140" height="140">
+    <img src="images/html5-logo-and-wordmark.png"alt="Girl in a jacket" width="140" height="140">
+    <img src="images/javascript-5.png"alt="Girl in a jacket" width="150" height="150">
     </section>
 
     <section id="section-5">
     <h2>To do list</h2>
+    <div id="todo-app-wrapper">
+        <nav>
+            <form id="todo-form">
+                <input id="todo-input" type="text" placeholder="I need to do...">
+                <input class="btn" type="submit" value="Add">
+            </form>
+        </nav>
+        <section id="todo-list"></section>
+        </div>
     </section>
 
 
     <section id="section-6">
-    <h2>benefits of using a to do list</h2>
+    <h2>Benefits of using a to do list</h2>
     <ul>
     <li>It gives you organization skills</li>
     <li>It helps you prioritize tasks</li>
@@ -56,18 +66,21 @@
     </section>
 
 
-    <section id="section-7">
+<section id="section-7">
     <h2>About me</h2>
-    <ul>
-    <li>I am a Creative software engineer with an Amazing heart and open to teach others as much as i have learned so feel free to get in touch:</li>
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=maazahmedkhawaja@gmail.com&su=SUBJECT&body=HI">Contact
+<ul>   
+    <li>As a creative software engineer, I'm enthusiastic about building clean code and strong teams.</li>
     <p> </p>
-        <a href=" https://github.com/Darkmatterindustries">Github Link</a>
-</section>
-
-</body>
+    <li>I'm always open to mentoring and sharing what I've learned.</li>
+    <p> </p>
+    <li>Let's connect: <a href="mailto:maazahmedkhawaja@gmail.com">Gmail</a></li>
+    <li>See my work: <a href="https://github.com/Darkmatterindustries">GitHub</a></li>
+</ul>
+    </section>
+<script src="todo_logic.js" type="module"></script>
 <footer>
     <p>Made with love ♡ </p> 
-     <p> Dark Matter Industries © 2025</p>
+    <p> Dark Matter Industries © 2025</p>
 </footer>
+</body>
 </html>

@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 .leckerli-one-regular {
     font-family: "Leckerli One", cursive;
@@ -18,11 +19,11 @@ body
 
 #section-1 {
     font-size: 50px;
-    font-family: 'Leckerli One', cursive; 
+    font-family: 'Leckerli One', cursive;
     background-color: #fde4f2; 
     margin: -50px;
     padding: 325px; 
-    color: #cdcdcd;
+    color: #470606;
 }
 
 #section-2 { 
@@ -41,7 +42,7 @@ body
     background-color: #ebebe6; 
     margin: -50px;
     padding: -50px; 
-    color: #beb950;
+    color: #470606;
 }
 #section-8 {
     font-size: 50px;
@@ -49,7 +50,7 @@ body
     background-color: #ebebe6; 
     margin: -50px;
     padding: 50px; 
-    color: #beb950;
+    color: #470606;
 }
 
 #section-4 {
@@ -58,7 +59,7 @@ body
     background-color: #d3cac0; 
     margin: -50px;
     padding: 30px;
-    color: #FFFFFF;
+    color: #000000;
 }
 #section-9 {
     font-size: 50px;
@@ -71,21 +72,24 @@ body
 
 #section-5 { 
     font-size: 50px;
-    font-family: 'Leckerli One', cursive; 
+    font-family: 'Lucida Sans Unicode', Geneva; 
     background-color: #e7e3dc; 
+
     margin: -50px;
     padding: 300px; 
     color: #d3cac0;
 }
 #section-6 { 
+    text-align: left;
     font-size: 50px;
-    font-family: 'Leckerli One', cursive; 
+    font-family: 'Lucida Sans Unicode', Geneva; 
     background-color: #cdcdcd; 
     margin: -50px;
     padding: 300px; 
     color: #fde4f2;
 }
 #section-7 {
+    text-align: left;
     font-size: 50px;
     font-family: sans-serif; 
     background-color: #fde4f2; 
@@ -96,8 +100,40 @@ body
 footer {
     font-size: 30px;
     font-family: 'Leckerli One', cursive; 
-    background-color: #000000; 
+    background-color: #e7e3dc; 
     margin: -50px;
     padding: 20px; 
-    color: #fde4f2;
+    color: #470606;
 }   
+
+
+
+#todo-app-wrapper article[data-checked='checked'] span {
+    text-decoration: line-through;
+}
+
+
+#todo-form {
+    display: flex;
+    gap: 8px;      
+}
+
+#todo-input 
+{
+    flex-grow: 1;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #ffffff;
+    background-color: #e7e3dc;
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d3cac0;
+    border: none;
+    border-radius: 8px;
+}
