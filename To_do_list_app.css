@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+.leckerli-one-regular {
+    font-family: "Leckerli One", cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+#section-1 {
+    font-size: 50px;
+    font-family: 'Leckerli One', cursive; 
+    background-color: #fde4f2; 
+    margin: -50px;
+    padding: 325px; 
+    color: #cdcdcd;
+}
+
+#section-2 { 
+    font-size: 50px;
+    font-family: 'Lucida Sans Unicode', Geneva; 
+    background-color: #cdcdcd; 
+    margin: -50px;
+    padding: 325px; 
+    color: #fde4f2;
+}
+
+
+#section-3 {
+    font-size: 50px;
+    font-family: 'Leckerli One', cursive; 
+    background-color: #ebebe6; 
+    margin: -50px;
+    padding: -50px; 
+    color: #beb950;
+}
+#section-8 {
+    font-size: 50px;
+    font-family: 'Leckerli One', cursive; 
+    background-color: #ebebe6; 
+    margin: -50px;
+    padding: 50px; 
+    color: #beb950;
+}
+
+#section-4 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d3cac0; 
+    margin: -50px;
+    padding: 30px;
+    color: #FFFFFF;
+}
+#section-9 {
+    font-size: 50px;
+    font-family: 'Leckerli One', cursive; 
+    background-color: #d3cac0; 
+    margin: -50px;
+    padding: 60px; 
+    color: #ebebe6;
+}
+
+#section-5 { 
+    font-size: 50px;
+    font-family: 'Leckerli One', cursive; 
+    background-color: #e7e3dc; 
+    margin: -50px;
+    padding: 300px; 
+    color: #d3cac0;
+}
+#section-6 { 
+    font-size: 50px;
+    font-family: 'Leckerli One', cursive; 
+    background-color: #cdcdcd; 
+    margin: -50px;
+    padding: 300px; 
+    color: #fde4f2;
+}
+#section-7 {
+    font-size: 50px;
+    font-family: sans-serif; 
+    background-color: #fde4f2; 
+    margin: -50px;
+    padding: 300px; 
+    color: #cdcdcd; 
+}
+footer {
+    font-size: 30px;
+    font-family: 'Leckerli One', cursive; 
+    background-color: #000000; 
+    margin: -50px;
+    padding: 20px; 
+    color: #fde4f2;
+}   
