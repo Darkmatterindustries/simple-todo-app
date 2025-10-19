@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 .leckerli-one-regular {
     font-family: "Leckerli One", cursive;
@@ -96,7 +95,13 @@ body
     margin: -50px;
     padding: 300px; 
     color: #cdcdcd; 
+    
 }
+a {
+  color: #470606;
+  text-decoration: underline;
+}
+
 footer {
     font-size: 30px;
     font-family: 'Leckerli One', cursive; 
@@ -105,13 +110,6 @@ footer {
     padding: 20px; 
     color: #470606;
 }   
-
-
-
-#todo-app-wrapper article[data-checked='checked'] span {
-    text-decoration: line-through;
-}
-
 
 #todo-form {
     display: flex;
